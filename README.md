@@ -3,7 +3,7 @@
 A gateway that sits between an app (for example the Aider coding agent) and AI models.
 Each request is routed to the cheapest model likely to handle it, the reply is checked,
 and the request escalates to a stronger model only if the check fails. Every step is
-recorded as a trace so cost, latency and decisions can be inspected, and the same
+recorded as a trace so cost, latency and decisions can be inspected,and the same
 requests can be sent through a single strong model for comparison.
 
 ```
